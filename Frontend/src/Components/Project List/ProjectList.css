@@ -1,0 +1,97 @@
+.projectlists-main {
+    padding: 0px 15px 10px;
+}
+
+.projectlists {
+    color: rgba(69, 10, 10);
+    font-family: Comfortaa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectlists>h1 {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.projectlists>input {
+    margin-top: 7px;
+    width: 14rem;
+    height: 1.5rem;
+    padding: 15px;
+    border: 1.5px solid rgba(69, 10, 10);
+    border-radius: 4rem;
+    box-shadow: 4px 6px 100px 1px rgba(69, 10, 10);
+
+}
+
+.projectlists>input:focus {
+    border: none;
+
+}
+
+.projectlists>input::placeholder {
+    font-family: Comforta;
+    font-size: 1.2rem;
+    color: rgba(69, 10, 10, 0.5)
+}
+
+.projectlists-display {
+    gap: 1rem;
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projectlist {
+    border-radius: 1rem;
+    box-shadow: 4px 6px 100px 1px rgba(69, 10, 10, 0.25);
+    color: white;
+    font-family: Comfortaa;
+    background-color: rgba(69, 10, 10);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 18rem;
+
+}
+
+.projectlist:hover {
+    cursor: pointer;
+    background-color: rgb(107, 16, 16);
+}
+
+.projectlist>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.projectlist>h1 {
+    border-radius: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.projectlist>h2 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.projectlist-buttons>button {
+    background: white;
+    color: rgb(107, 16, 16);
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.projectlist-buttons>button:hover {
+    background-color: rgb(107, 16, 16);
+    color: white;
+}
